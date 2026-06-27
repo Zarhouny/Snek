@@ -72,9 +72,9 @@ When you activate the AI feature, Snek goes through distinct evolutionary stages
 | Training Phase | High Score Range | Behavioral Traits |
 | :--- | :--- | :--- |
 | **Games 0 – 50** | $0 - 5$ | Complete chaos. Snek makes random wild guesses to see how the board works. |
-| **Games 50 – 150** | $5 - 60$ | Figures out how to dodge walls, but constantly rams into its own body out of greed. |
-| **Games 150 – 300** | $60 - 90$ | Learns to respect its own tail; starts making careful, fluid loops. |
-| **Games 300+** | **110+** | Random guessing shuts off completely. The Snek acts on pure instinct, packing its body perfectly to break into triple digits. |
+| **Games 50 – 150** | $5 - 60$ | Figures out how to dodge walls, but constantly rams into her own body out of greed. |
+| **Games 150 – 300** | $60 - 90$ | Learns to respect her own tail; starts making careful, fluid loops. |
+| **Games 300+** | **110+** | Random guessing shuts off completely. Snek now acts on pure instinct, packing her body perfectly to break into triple digits. |
 
 ❗ a startring **`Snake_brain.pth`** file has been included within the game files. a collection of 517 games the AI has played and learned from with a high score of 133. if you want to train it from scratch, delete the file.
 <br>
