@@ -53,7 +53,7 @@ All the settings are sitting right at the top of your `main.py` file. You can ch
     * *How to tweak it:* Change this to `True` to activate **Border Wrapping**. If Snek goes off the left edge of the screen, it will instantly pop out on the right edge. 
 * **`OUROBOROS_MODE = False`**
     * *What it does:* Determines if Snek can phase through herself.
-    * *How to tweak it:* If you switch this to `True`, Snek a ghost to itself—it can pass right through its own tail without dying. 
+    * *How to tweak it:* If you switch this to `True`, Snek becomes a ghost to herselfself. she can pass right through her own tail without dying. 
 
 
 ### 3. AI Activation & Speed
