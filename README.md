@@ -77,6 +77,14 @@ When you activate the AI feature, Snek goes through distinct evolutionary stages
 | **Games 300+** | **110+** | Random guessing shuts off completely. The Snek acts on pure instinct, packing its body perfectly to break into triple digits. |
 
 ❗ a startring **`Snake_brain.pth`** file has been included within the game files. a collection of 517 games the AI has played and learned from with a high score of 133. if you want to train it from scratch, delete the file.
+<br>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8a2073f-3e54-4f81-b7f7-16f0846d9638" alt="showcase" width="300" />
+</p>
+
+<br>
+
 
 ## ❓ FAQ
 
