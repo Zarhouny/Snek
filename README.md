@@ -116,7 +116,7 @@ If you want to change how the AI learns, look at how the `Agent` is set up insid
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Zarhouny/snek.git](https://github.com/Zarhouny/snek.git)
+   git clone https://github.com/Zarhouny/snek.git
    cd snek
    ```
 2. **Install Dependencies:**
