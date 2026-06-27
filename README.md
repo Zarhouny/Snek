@@ -6,8 +6,8 @@ A fully playable Snake game written from the ground up in Python. You can play i
 
 ## 📝 Introduction
 
-Most Snake projects use pre-programmed pathfinding tricks to beat the game. This project does something different: it drops a blank digital brain into the game with no prior instructions, forces it to learn from its own mistakes, and watches it figure out how to survive.
-
+Most Snake projects use pre-programmed pathfinding tricks to beat the game. This project does something different: it drops a blank model into the game with no prior instructions, forces it to learn from its own mistakes, and watches it figure out how to survive.
+f
 *Because **snek** is built as a complete customizable sandbox, you can change the look, tweak the rules, turn off wall collisions, or let the AI take over the controls to see how it reacts to your changes.*
 
 ---
@@ -102,16 +102,16 @@ When the AI feature is turned on, it evaluates the board using 8 sightlines cast
 
 1. **Forward** | 2. **Backward** | 3. **Left** | 4. **Right** | 5. **4 Diagonals**
 
-Each line tracks exactly **3 things**, totaling 24 data inputs for the brain:
+Each line tracks exactly **3 things**, totaling 24 data inputs for the model:
 * **Wall Distance:** How close a wall is. Closer boundaries send a stronger danger signal
 * **Tail Distance:** How close its own body segments are
 * **Food Location:** A simple switch that flips on if an apple is directly in that line of sight
 
-### 2. Tuning the Brain's Code Settings (Inside `ai.py`)
+### 2. Tuning the Models's Code Settings (Inside `ai.py`)
 If you want to change how the AI learns, look at how the `Agent` is set up inside `ai.py`:
-* **`lr=0.0003` (Learning Rate):** How drastically the brain updates its memory when it makes a mistake. If you make this too high, it panics and forgets everything; too low, and it takes thousands of games to learn anything useful.
+* **`lr=0.0003` (Learning Rate):** How drastically the model updates its memory when it makes a mistake. If you make this too high, it panics and forgets everything; too low, and it takes thousands of games to learn anything useful.
 * **`gamma=0.9` (Discount Factor):** Tells the AI how much it should care about future survival versus immediate rewards. `0.9` means it values keeping the board open over just greedily rushing the closest apple.
-* **The Feedback Policy (Rewards & Punishments):** The brain learns by chasing a high score built into the code:
+* **The Feedback Policy (Rewards & Punishments):** The model learns by chasing a high score built into the code:
     * *Crashing (Death):* $-10.0$ points
     * *Eating an Apple:* $+10.0$ points
     * *Moving Closer to an Apple:* $+0.15$ points
