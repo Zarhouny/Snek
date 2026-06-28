@@ -31,7 +31,7 @@ f
 
 ## 🛠️ Customization
 
-All the settings are sitting right at the top of your `main.py` file. You can change the entire behavior of the game just by swapping out a few numbers or words.
+All the settings are sitting right at the top of your `snake.py` file. You can change the entire behavior of the game just by swapping out a few numbers or words.
 
 ### 1. Visuals & Window Size
 * **`WIDTH, HEIGHT = 500, 500`**
